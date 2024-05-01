@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_smartphone_24"
+            android:title="@string/menu_firstapplication" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_wrap_text_24"
+            android:title="@string/menu_wrapcontent" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_access_time_24"
+            android:title="@string/menu_analogdigital" />
+        <item
+            android:id="@+id/nav_ratingbar"
+            android:icon="@drawable/baseline_star_rate_24"
+            android:title="@string/menu_ratingbar" />
+        <item
+            android:id="@+id/nav_newactivity"
+            android:icon="@drawable/baseline_open_in_new_24"
+            android:title="@string/menu_newactivity" />
+        <item
+            android:id="@+id/nav_radiobutton"
+            android:icon="@drawable/baseline_radio_button_checked_24"
+            android:title="@string/menu_radiobutton" />
+        <item
+            android:id="@+id/nav_imageview"
+            android:icon="@drawable/baseline_image_24"
+            android:title="@string/menu_imageview"/>
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/baseline_calculate_24"
+            android:title="@string/menu_calculator"/>
+    </group>
+
+</menu>

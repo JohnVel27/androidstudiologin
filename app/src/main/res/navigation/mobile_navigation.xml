@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.finalactivity.ui.home.HomeFragment"
+        android:label="menu_firstapplication"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.finalactivity.ui.gallery.GalleryFragment"
+        android:label="menu_wrapcontent"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.finalactivity.ui.slideshow.SlideshowFragment"
+        android:label="menu_analogdigital"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="com.example.finalactivity.ui.calculator.CalculatorFragment"
+        android:label="@string/menu_calculator"
+        tools:layout="@layout/fragment_calculator" />
+    <fragment
+        android:id="@+id/nav_imageview"
+        android:name="com.example.finalactivity.ui.imageview.ImageviewFragment"
+        android:label="@string/menu_imageview"
+        tools:layout="@layout/fragment_imageview" />
+    <fragment
+        android:id="@+id/nav_radiobutton"
+        android:name="com.example.finalactivity.ui.radiobutton.RadiobuttonFragment"
+        android:label="@string/menu_radiobutton"
+        tools:layout="@layout/fragment_radiobutton" />
+    <fragment
+        android:id="@+id/nav_newactivity"
+        android:name="com.example.finalactivity.ui.newactivity.NewactivityFragment"
+        android:label="@string/menu_newactivity"
+        tools:layout="@layout/fragment_newactivity" />
+    <fragment
+        android:id="@+id/nav_ratingbar"
+        android:name="com.example.finalactivity.ui.ratingbar.RatingBarFragment"
+        android:label="@string/menu_ratingbar"
+        tools:layout="@layout/fragment_rating_bar" />
+</navigation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <AnalogClock
+        android:id="@+id/analog_clock"
+        android:layout_width="336dp"
+        android:layout_height="238dp"
+        android:layout_marginLeft="50dp"/>
+
+    <DigitalClock
+        android:id="@+id/digital_clock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:background="@color/sec"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:layout_width="379dp"
+        android:layout_height="541dp"
+        android:src="@drawable/eaclogo"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="20dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="650dp"
+        android:text="Swap Clock"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/eaccolor"/>
+
+
+
+
+
+</RelativeLayout>

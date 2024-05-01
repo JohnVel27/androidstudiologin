@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.radiobutton.RadiobuttonFragment">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        android:src="@drawable/ems"
+        android:layout_marginTop="100dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sino ang unang Presidente ng Pilipinas?"
+        android:textSize="20dp"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <RadioGroup
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="25dp">
+
+        <RadioButton
+            android:id="@+id/manuel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manuel Quezon"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/jose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jose P Laurel"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/emilio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emilio Aguinaldo"
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/ferdinand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ferdinand Marcos"
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.newactivity.NewactivityFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/eaclogo"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/activity2nd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2nd Activity"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="110dp"
+        app:backgroundTint="@color/eaccolor"/>
+
+
+
+</RelativeLayout>
